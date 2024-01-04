@@ -1,0 +1,603 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 31px;
+    height: 30px;
+    flex-shrink: 0;
+    background-color: #f94a3d;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 100% */
+    letter-spacing: -0.28px;
+    border-radius: 2px;
+}
+
+.brand {
+    color: var(--Food-Delivery-Orange-Color, #f94a3d);
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 93.333% */
+    letter-spacing: -0.3px;
+}
+
+li {
+    color: #212244;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.search {
+    text-align: center;
+}
+
+.search_text {
+    color: #69697b;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.right_part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop {
+    margin-left: 30px;
+}
+
+#btn_div {
+    margin-left: 30px;
+}
+
+.signin {
+    width: 109px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--Food-Delivery-Orange-Color, #f94a3d);
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    border: none;
+}
+
+#specs {
+    display: flex;
+}
+
+
+
+#faster_div {
+    background: #fdecec;
+    border-radius: 23px;
+    height: auto;
+    width: 229px;
+    text-align: center;
+}
+
+.more_than {
+    color: #f94a3d;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 16px;
+    word-wrap: break-word;
+}
+
+.get_your {
+    width: 524px;
+    height: 210px;
+    font-size: 60px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 70px;
+    word-wrap: break-word;
+}
+
+.door {
+    color: #f94a3d;
+    font-size: 60px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 70px;
+    word-wrap: break-word;
+}
+
+.text_content {
+    margin-top: 150px;
+}
+
+.food_that_is {
+    color: var(--Food-Delivery-P, #69697b);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 177.778% */
+}
+
+#explore_food {
+    width: 174px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #f94a3d;
+    border: none;
+    color: var(--Food-Delivery-White-Grey, #f6f6f6);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.18px;
+}
+
+#why_best {
+    color: var(--Food-Delivery-PG, #212244);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+    /* 120.833% */
+}
+
+.card {
+    width: 300px !important;
+    text-align: center;
+}
+
+.About-Us {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.deco {
+    border-radius: 20px;
+    border: 4px solid rgba(255, 207, 3, 0);
+
+    background: #fff;
+
+    box-shadow: 20px 40px 90px -5px rgba(133, 15, 15, 0.08);
+}
+
+.info {
+    color: #212244;
+
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    /* 133.333% */
+}
+
+#special_recipe_head {
+    color: var(--Food-Delivery-PG, #212244);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#second_nav>ul>li {
+    color: var(--Food-Delivery-PG, #212244);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#first_item {
+    color: var(--Food-Delivery-Orange-Color, #f94a3d);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.heading {
+    color: var(--Food-Delivery-PG, #212244);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.price {
+    color: var(--Food-Delivery-Orange-Color, #f94a3d);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.price_head {
+    color: var(--Food-Text-Color-2, #69697b);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 100% */
+}
+
+.food_category {
+    display: flex;
+    margin-top: 30px;
+}
+
+.testimonials {
+    display: flex;
+    margin-top: 200px;
+    background-color: #f8f8f8;
+}
+
+.customer {
+    color: var(--Food-Delivery-PG, #212244);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    /* 125% */
+    letter-spacing: 0.96px;
+}
+
+#are_saying {
+    color: var(--Food-Delivery-Orange-Color, #f94a3d);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0.96px;
+}
+
+.first_div {
+    width: 550px;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+.vertical_line {
+    border-left: 2px solid #000;
+    height: 100vh;
+}
+
+.name {
+    color: var(--Food-Delivery-PG, #212244);
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+    /* 150% */
+    margin-bottom: 0px;
+}
+
+.designation {
+    color: var(--Food-Text-Color-2, #69697b);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.rating4 {
+    display: inline-block;
+    margin-left: 250px;
+}
+
+.customer_photo {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.customer_info {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+.wrapper {
+    margin-top: 8px;
+}
+
+.cardo {
+    display: flex;
+    width: 1120px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: var(--Food-Delivery-Orange-Color, #f94a3d);
+}
+
+.mobi {
+    width: 312px;
+    height: 625px;
+    margin-left: 120px;
+    display: inline-block;
+    position: relative;
+}
+
+.test {
+    position: absolute;
+    left: 270px;
+    top: 50px;
+}
+
+.menu {
+    position: absolute;
+    right: 190px;
+    top: 70px;
+}
+
+.menu2 {
+    position: absolute;
+    top: 0px;
+    left: 70px;
+}
+
+.taste {
+    color: var(--Food-Text-Color-1, #2e2e46);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.recipe_head {
+    position: absolute;
+    top: 120px;
+    left: 90px;
+}
+
+.thali {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.thali2 {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.foodd {
+    color: var(--Food-Text-Color-1, #2e2e46);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.food_cat {
+    position: absolute;
+    top: 280px;
+    left: 100px;
+}
+
+.food_cat2 {
+    position: absolute;
+    top: 280px;
+    left: 230px;
+}
+
+.food_cat3 {
+    position: absolute;
+    top: 400px;
+    left: 130px;
+}
+
+.rating {
+    position: absolute;
+    top: 300px;
+    left: 230px;
+}
+
+.rating2 {
+    position: absolute;
+    top: 300px;
+    left: 110px;
+}
+
+.price1 {
+    position: absolute;
+    top: 350px;
+    left: 110px;
+}
+
+.price2 {
+    position: absolute;
+    top: 350px;
+    left: 250px;
+}
+
+.love {
+    position: absolute;
+    top: 345px;
+    left: 320px;
+}
+
+.love2 {
+    position: absolute;
+    top: 345px;
+    left: 180px;
+}
+
+.mobile_navigation {
+    position: relative;
+    top: 100px;
+    right: 55px;
+    width: 280px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    opacity: 0.1;
+    background: linear-gradient(102deg,
+            rgba(255, 83, 49, 0.75) 41.25%,
+            rgba(227, 83, 54, 0.75) 98.64%);
+}
+
+.home {
+    position: absolute;
+    top: 205px;
+    left: -25px;
+}
+
+.Notification {
+    position: absolute;
+    top: 205px;
+    left: 20px;
+}
+
+.heart {
+    position: absolute;
+    top: 205px;
+    left: 130px;
+}
+
+.profile {
+    position: absolute;
+    top: 205px;
+    left: 180px;
+}
+
+.middle_ele {
+    position: absolute;
+    top: 180px;
+    left: 63px;
+}
+
+.details {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.mobi_head {
+    color: #fff;
+    margin-top: 90px;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 47px;
+    /* 123.684% */
+    letter-spacing: 0.76px;
+}
+
+.footer_section {
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.foot_head {
+    color: #2e2e2e;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 111.111% */
+    letter-spacing: -0.18px;
+    margin-bottom: 40px;
+}
+
+.about {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.facebook {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.twitter {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.linkedin {
+    display: inline-block;
+}
+
+.card {
+    border: none !important;
+}
+
+.ordering {
+    color: #fff;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 177.778% */
+}
+
+.appstore {
+    display: inline-block;
+}
+
+.playstore {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.navbar-brand {
+    margin-right: 0 !important;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+}
+
+@media (max-width: 767.98px) {
+    .right_part {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .navbar-toggler {
+        margin-right: 0.5rem;
+    }
+}
