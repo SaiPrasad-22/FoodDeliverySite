@@ -3,6 +3,13 @@ body {
     padding: 0px;
 }
 
+#wholeflex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
 .logo {
     width: 31px;
     height: 30px;
